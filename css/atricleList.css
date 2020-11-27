@@ -1,0 +1,160 @@
+body{
+	background-image: url(../img/sky-1625270_1920.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.article-main{
+	    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 85%;
+    margin: 0 auto;
+    height: 700px;
+}
+.article-left,.article-right{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display:inline-block;
+	height: auto;
+}
+.article-left{
+    width: 80%;
+    border-right: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.article-right{
+	padding:15px;
+	width: 20%;
+    left: 82%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+.article-head{
+    padding: 10px 15px;
+    padding-bottom: 0;
+}
+.article-head h2{
+    padding: 12px 0px;
+    margin-left: 65px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+.article-head h2:after{
+    content: "";
+    width: 133px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 15px;
+    top: 53px;
+}
+
+.article-list-item{
+    display: block;
+    text-align: left;
+    padding: 32px 15px 15px 15px;
+    position: relative;
+}
+.article-list-item hr{
+	margin-top: 64px;
+}
+	
+.article-list-item img,.article-list-item p{
+	display: inline-block;
+}
+
+.article-list-item p{
+    text-align: left;
+    text-indent: 2em;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    height: 120px;
+    padding: 0 13px;
+
+}
+.article-list-item h3{
+	line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:-5px;
+}
+
+.article-list-item img{
+	float: left;
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
+.article-list-item label{
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: 35px;
+}
+.article-list-item label span{
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    width: 44px;
+    height: 20px;
+    margin-left: 15px;
+    background-color: #fff;
+    box-shadow: #eee 0px 0px 2px 1px;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.article-list-item ul{
+    width: 50%;
+    margin-top: 31px;
+    margin-left: 140px;
+    color: #666;
+}
+.article-list-item ul li{
+	float: left;
+	margin-left: 30px;
+}
+
+.article-right h2{
+	text-align: left;
+	font-size: 16px;
+	
+}
+.article-right img{
+	width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.article-right h2:after{
+	content: "";
+    width: 66px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 15px;
+    top: 43px;
+}
+.examine-btn{
+	display: inline-block;
+    position: absolute;
+    right: 27px;
+    bottom: 35px;
+}
+.iconfont{
+	padding-right: 3px;
+}
+.blog-dushu{
+    position: absolute;
+    left: 16px;
+    top: 3px;
+    font-size: 49px;
+    color: #666;
+}

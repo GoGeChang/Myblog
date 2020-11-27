@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>记录文章类别</title>
+		<link rel="stylesheet" href="../layui/css/layui.css" />
+		<style>
+			.layui-card-header{
+				text-align: center;
+			}
+			.content{
+				width: 800px;
+				height: auto;
+				margin: 0 auto;
+			}
+
+			.record-content{
+				display: inline-block;
+				width:800px;
+				position: relative;
+			}
+			.record-content li{
+				position: relative;
+				float: left;
+				padding:15px;
+				margin: 15px;
+				display: inline-block;
+				text-align:center;
+				width: 120px;
+				height: 30px;
+				line-height: 30px;
+				border:#c2c2c2 1px solid;
+				transition: all 0.3s;
+				
+			}
+			.record-content li:hover{
+				cursor:pointer;
+				background-color:rgb(30,159,255) ;
+				color:#FFFFFF;
+				box-shadow: #C2BE9E 3px 3px 3px; 
+			}
+			.layui-input-block{
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="record">
+				<ul class="record-content">
+					<li>.NET</li>
+					<li>Echarts</a></li>
+					<li>Layui</a></li>
+					<li>Javascript</a></li>
+					<li>Jquery</a></li>
+					<li>Html5</a></li>
+					<li>CSS3</a></li>
+					<li>BootStrap</a></li>
+					<li>电脑知识</a></li>
+					<li>数据结构</a></li>
+					<li>算法知识</a></li>
+					<li>我的书单</a></li>
+					<li>看书书评</a></li>
+					<li>计算机组成原理</a></li>
+					<li>优秀电影集合</a></li>
+				</ul>
+				<div class="layui-input-block">
+					<button type="button" class="layui-btn layui-btn-normal" id="yes">选好了</button>
+					<button type="button" class="layui-btn layui-btn-warm" id="no">算了</button>
+				</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="../layui/layui.js"></script>
+		<script type="text/javascript" src="../js/public.js"></script>
+		<script>
+			layui.use(["element","form","layer"],function(){
+				var element = layui.element,
+					form = layui.form,
+					layer = layui.layer;
+				findElem.getId("yes").onclick=function(){
+					layer.msg("提交记录成功！")
+				}
+				
+				findElem.getId("no").onclick=function(){
+					var index = parent.layer.getFrameIndex(window.name);
+					parent.layer.close(index)
+				}
+			})
+		</script>
+	</body>
+</html>

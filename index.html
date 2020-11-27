@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>常开国的博客</title>
+		<!-- 优先使用 IE 最新版本和 Chrome -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<!-- 页面描述 -->
+		<meta name="description" content="常开国个人搭建的博客" />
+		<!-- 页面关键词 -->
+		<meta name="author" content="常开国" />
+		<!-- 网页作者 -->
+		<meta name="keywords" content="常开国,开国,个人空间,博客,成长,经历,编程" />
+		<!-- 为移动设备添加 viewport -->
+		<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="layui/css/layui.css" />
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_1571769_bkbakwxtac.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="icon" href="my.ico"  type="image/x-icon"/>
+	</head>
+	<body>
+		<div class="index-shade">
+		</div>
+		<div class="layui-fluid">
+			
+			<nav  class="top">
+				<div class="top-left">
+					<a href="javascript:;"><img src="img/GoGeChang.jpg" alt="常开国"   page-href="index"/></a>
+				</div>
+				<div class="top-right">
+					<ul>
+						<li>
+							<a href="#" id="spaceIntroduction" page-href="spaceIntroduction" >
+								<i class="layui-icon layui-icon-chat"></i>
+								空间介绍
+								<span></span>
+							</a>
+						</li>
+						<li>
+							<a href="#" id="messageBoard" page-href="messageBoard"  >
+								<i class="layui-icon layui-icon-tabs"></i>
+								留言板
+								<span></span>
+							</a>
+							
+						</li>
+						<li>
+							<a href="#" id="individualCenter" page-href="individualCenter" >
+								<i class="layui-icon layui-icon-username"></i>
+								个人中心
+								<span></span>
+							</a>
+						</li>
+					</ul>
+					<div class="more" >
+						<label class="layui-icon layui-icon-align-center">	
+						</label>
+						<dl class="more-list">
+							<dd>
+								<a href="#" page-href="spaceIntroduction">
+									<i class="layui-icon layui-icon-chat"></i>
+									空间介绍
+								</a>
+							</dd>
+							<dd>
+								<a href="#" page-href="messageBoard">
+									<i class="layui-icon layui-icon-chat"></i>
+									留言板
+								</a>
+							</dd>
+							<dd>
+								<a href="#" page-href="individualCenter">
+									<i class="layui-icon layui-icon-chat"></i>
+									个人中心
+								</a>
+							</dd>
+						</dl>
+							
+					</div>
+					<div
+				</div>
+			</nav>
+			<div id = "layoutContent">
+				<!--thisContent-->	
+				<div class="layui-col-lg3 content-right">
+					<div class="timeShow">
+						<p></p>
+					</div>
+					<div class="Ana">
+						<p>
+							你人生时间的去处，决定了你是一个什么样的人...
+						</p>
+					</div>
+					
+					<div class="articleList transparency">
+						<div class="layui-card transparency">
+							<div class="layui-card-header">
+								<h3 class="articleList-title">知识分类</h3>
+							</div>
+							<div class="layui-card-body " style="padding: 0px;">
+								<ul id="articleList" page-href="atricleList">
+									<li><a href="#" >.NET</a></li>
+									<li><a href="#">Echarts</a></li>
+									<li><a href="#">Layui</a></li>
+									<li><a href="#">Javascript</a></li>
+									<li><a href="#">Jquery</a></li>
+									<li><a href="#">Html5</a></li>
+									<li><a href="#">CSS3</a></li>
+									<li><a href="#">BootStrap</a></li>
+									<li><a href="#">电脑知识</a></li>
+									<li><a href="#">数据结构</a></li>
+									<li><a href="#">算法知识</a></li>
+									<li><a href="#">我的书单</a></li>
+									<li><a href="#">看书书评</a></li>
+									<li><a href="#">计算机组成原理</a></li>
+									<li><a href="#">优秀电影集合</a></li>
+								</ul>
+							</div>
+						</div>
+	
+					</div>
+				</div>
+				
+				<div class="layui-col-lg6 ">
+					<div class="main-content">
+						<form class="layui-form form-control" lay-filter="form">
+							<div class="layui-form-item">
+								<textarea class="layui-textarea" placeholder="今天是什么心情？" id="inputContent"></textarea>
+								<div class="layui-form-item" id="btn" style="margin-top: 15px;">
+									<input type="button" class="layui-btn layui-btn-warm" value= "清空内容" id="clear"/>
+									<input type="button" class="layui-btn layui-btn-primary" value="确定记录" id="yes" />
+								</div>	
+							</div>
+							
+							<div class="layui-form-item content-item">
+								<div class="content-top">
+									<img align="常开国" src="img/GoGeChang.jpg" />
+									<div class="content-to-content">
+										<h2>常开国</h2>
+										<h3><cite>刚刚</cite>发布了这条关于<span>心情</span>的动态</h3>
+									</div>
+								</div>
+								
+								<div class="content-main">
+									<div class="content-main-conent">
+										<p>
+											我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="layui-form-item content-item">
+								<div class="content-top">
+									<img align="常开国" src="img/GoGeChang.jpg" />
+									<div class="content-to-content">
+										<h2>常开国</h2>
+										<h3><cite>刚刚</cite>发布了这条关于<span>心情</span>的动态</h3>
+									</div>
+								</div>
+								
+								<div class="content-main">
+									<div class="content-main-conent">
+										<p>
+											我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="layui-form-item content-item">
+								<div class="content-top">
+									<img align="常开国" src="img/GoGeChang.jpg" />
+									<div class="content-to-content">
+										<h2>常开国</h2>
+										<h3><cite>刚刚</cite>发布了这条关于<span>心情</span>的动态</h3>
+									</div>
+								</div>
+								
+								<div class="content-main">
+									<div class="content-main-conent">
+										<p>
+											我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！
+										</p>
+									</div>
+								</div>
+							</div><div class="layui-form-item content-item">
+								<div class="content-top">
+									<img align="常开国" src="img/GoGeChang.jpg" />
+									<div class="content-to-content">
+										<h2>常开国</h2>
+										<h3><cite>刚刚</cite>发布了这条关于<span>心情</span>的动态</h3>
+									</div>
+								</div>
+								
+								<div class="content-main">
+									<div class="content-main-conent">
+										<p>
+											我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！我想要远方和诗！
+										</p>
+									</div>
+								</div>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+				
+				<div class="layui-col-lg3 showToday">
+					<div id="showToday"></div> <!--存放日历的区域-->
+				</div>
+				<!--thisContent-->	
+			</div>
+			
+			<div class="foot">
+				<div class="foot-content">
+					<p><a href="http://www.beian.miit.gov.cn" target="_blank">备案号：黔ICP备19011225号-1</a></p>
+					<p>声明：该网站所有内容均为原创，如有问题，请联系博主</p>	
+					<p>邮箱：1102517143@qq.com</p>	
+				</div>
+			</div>	
+	</div>
+		<script type="text/javascript" src="layui/layui.js"></script>
+		<script type="text/javascript" src="js/public.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

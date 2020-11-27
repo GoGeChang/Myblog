@@ -1,0 +1,60 @@
+body{
+	background-image: url(../img/sky-1625270_1920.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.photo-main{
+	background-color:#fff;
+	width:98%;
+	border-radius: 5px;
+	padding:15px 15px 50px 15px;
+	min-height: 400px;
+	box-shadow:0px 0px 8px #c2c2c2;
+}
+.photo-list{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.photo-card{
+	position: relative;
+	display: inline-block;
+	border:1px solid #eee;
+	width: 20%;
+	padding:8px;	
+	margin:20px;
+	box-shadow:0px 0px 8px #c2c2c2;
+	height:170px;	
+	overflow: hidden;
+}
+
+.photo-card,.photo-card img{
+     transition: all 0.5s;
+}
+.photo-shade{
+	position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    background-color: rgba(0,0,0,0.5);
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height:170px;
+    font-size:40px;
+    color:#fff;
+    cursor:pointer;
+}
+.photo-card img{
+	width: 100%;
+	height: 100%;
+}
+.photo-card:hover img{
+	/*opacity: 0.8;*/
+	
+}
+

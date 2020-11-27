@@ -1,0 +1,52 @@
+body{
+	background-image: url(../img/sky-1625270_1920.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.atricleContent-mian{
+	position: relative;
+	width: 95%;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+	height: auto;
+	background-color:#fff;
+	border-radius: 5px;
+}
+.atricleContent-title h2{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    padding: 15px 0 25px 0;
+    width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.atricleContent-title>ul{
+    display: inline-block;
+    text-align: center;
+    color: #666;
+    position: absolute;
+    left: 59%;
+    top: 45px;
+
+} 
+.atricleContent-title>ul>li{
+	float: left;
+    margin-left: 48px;
+	
+}
+.atricle-content{
+	height: auto;
+	min-height: 500px;
+	padding:30px;
+	font-size:18px;
+}
+.atricle-foot{
+	height:50px;
+	border-top:1px dotted #000;
+}

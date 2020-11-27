@@ -1,0 +1,59 @@
+body{
+	background-image:url(../img/sea-2134885_1920.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+
+.message-borard-layout{
+	position: relative;
+	top:0;
+	left: 0;
+	margin: 0;
+	
+}
+.message-board-main{
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top:80px;
+	margin: 0 auto;
+	width: 75%;
+	height:100%;
+	background-color: #fff;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+.input-item{
+	padding:15px;
+}
+.message-item{
+	margin: 15px;
+	background-color: #Fff;
+	padding: 8px 20px;
+	border-bottom: #C2C2C2 solid 1px;
+}
+#messageContent{
+	margin-top: 15px;
+}
+.message-person{	
+	text-align:left;
+	/*border-bottom: #C2C2C2 solid 1px;*/
+	padding-bottom: 5px;
+}
+.message-person-name{
+	display: inline-block;
+}
+.message-person-time{
+	letter-spacing:1px;
+	font-style:oblique;
+	color:#CCCCCC;
+	font-size: 12px;
+}
+.message-content{
+	text-align: left;
+	text-indent:2em;
+	padding:15px 0px;
+}
